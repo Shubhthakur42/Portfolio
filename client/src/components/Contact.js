@@ -58,11 +58,11 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-item">
               <i className="fa-solid fa-envelope"></i>
-              <span>amanara13579@gmail.com</span>
+              <span>bhumiharshubham42@gmail.com</span>
             </div>
             <div className="contact-item">
               <i className="fa-solid fa-phone"></i>
-              <span>+91 6299211631</span>
+              <span>+91 9572174231</span>
             </div>
             <div className="contact-item">
               <i className="fa-solid fa-location-dot"></i>
@@ -79,7 +79,7 @@ const Contact = () => {
               <a href="https://www.linkedin.com/in/141973shubham/" className="social-link" target="_blank" rel="noreferrer">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="https://wa.me/916299211631" className="social-link" target="_blank" rel="noreferrer">
+              <a href="https://wa.me/919572174231" className="social-link" target="_blank" rel="noreferrer">
                 <i className="fa-brands fa-whatsapp"></i>
               </a>
             </div>

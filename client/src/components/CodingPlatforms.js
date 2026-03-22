@@ -10,7 +10,7 @@ const CodingPlatforms = () => {
       badge: 'Active Competitor',
       problems: '200+',
       icon: 'fa-code',
-      profileUrl: 'https://leetcode.com/u/Amank041/',
+      profileUrl: 'https://leetcode.com/u/shubhamthakur45/',
       color: '#FFA116',
       bgColor: '#FFA116'
     },
@@ -21,7 +21,7 @@ const CodingPlatforms = () => {
       badge: 'Problem Solver',
       problems: '50+',
       icon: 'fa-star',
-      profileUrl: 'https://www.hackerrank.com/profile/amanara13579',
+      profileUrl: 'https://www.hackerrank.com/profile/bhumiharshubham1',
       color: '#00EA64',
       bgColor: '#1BA94C'
     },
@@ -32,7 +32,7 @@ const CodingPlatforms = () => {
       badge: 'Coding Enthusiast',
       problems: '50+',
       icon: 'fa-laptop-code',
-      profileUrl: 'https://www.geeksforgeeks.org/profile/amanarabmz9',
+      profileUrl: 'https://www.geeksforgeeks.org/profile/bhumiharsba3v',
       color: '#2F8D46',
       bgColor: '#308D46'
     }

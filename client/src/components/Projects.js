@@ -8,8 +8,8 @@ const Projects = () => {
       title: 'Glow Stack Salon - Beauty & Wellness Booking Platform',
       description: 'Developed a full-stack salon booking and management platform enabling real-time appointment inquiries, service browsing, and centralized admin control. Built RESTful APIs with Express.js for booking workflows, inquiry management, and email notifications via Nodemailer. Created a responsive React frontend with Tailwind CSS, dynamic routing, and seamless Axios-based client-server integration.',
       tags: ['React', 'Node.js', 'Express.js', 'Tailwind CSS', 'Axios', 'Nodemailer'],
-      link: '#',
-      demo: '#',
+      link: 'https://github.com/Shubhthakur42/Glow-Stack-Salon',
+      demo: 'https://egglowstack.netlify.app/',
       bg: '/images/salon.svg'
     },
     {
@@ -17,8 +17,8 @@ const Projects = () => {
       title: 'Aura Health AI - AI-Powered Healthcare Triage Assistant',
       description: 'Created a multilingual AI triage platform using the SambaNova Cloud API with Llama-3.1 to deliver instant and structured health guidance from complex user symptoms. Improved accessibility by reducing symptom reporting time with voice-first interaction. Implemented bi-directional voice features using Web Speech API for real-time Speech-to-Text and Text-to-Speech in English and Hindi.',
       tags: ['JavaScript', 'Tailwind CSS', 'SambaNova API (Llama-3.1)', 'Web Speech API', 'HTML5'],
-      link: '#',
-      demo: '#',
+      link: 'https://github.com/Shubhthakur42/Shubh-Health-AI',
+      demo: 'https://shubhthakur42.github.io/Shubh-Health-AI/',
       bg: '/images/seo.svg'
     }
   ];

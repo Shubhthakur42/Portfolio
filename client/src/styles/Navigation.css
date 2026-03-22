@@ -19,7 +19,29 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
   padding: 20px 0;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.nav-brand-logo {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  padding: 4px;
 }
 
 .ul-list {
@@ -108,10 +130,25 @@ header {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .div-list {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .nav-brand {
+    font-size: 14px;
+  }
+
+  .nav-brand-logo {
+    width: 30px;
+    height: 30px;
+  }
+
   .ul-list {
     gap: 1rem;
     padding: 8px 15px;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .ul-list li a {

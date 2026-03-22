@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <h2 className="footer-logo">Aman</h2>
+        <h2 className="footer-logo">Shubham</h2>
         <ul className="footer-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -20,11 +20,11 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/141973shubham/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
             <i className="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://wa.me/916299211631" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+          <a href="https://wa.me/919572174231" target="_blank" rel="noreferrer" aria-label="WhatsApp">
             <i className="fa-brands fa-whatsapp"></i>
           </a>
         </div>
-        <p className="footer-copy">&copy; 2026 Aman. All Rights Reserved.</p>
+        <p className="footer-copy">&copy; 2026 Shubham. All Rights Reserved.</p>
       </div>
     </footer>
   );

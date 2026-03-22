@@ -7,7 +7,12 @@ const Navigation = () => {
 
   const handleNavClick = (e) => {
     e.preventDefault();
-    const targetId = e.target.getAttribute('href').substring(1);
+    const href = e.currentTarget.getAttribute('href');
+    if (!href || !href.startsWith('#')) {
+      return;
+    }
+
+    const targetId = href.substring(1);
     const targetSection = document.getElementById(targetId);
 
     if (targetSection) {
@@ -21,13 +26,21 @@ const Navigation = () => {
     document.querySelectorAll('.ul-list li').forEach(li => {
       li.classList.remove('active');
     });
-    // Add active to clicked
-    e.target.parentElement.classList.add('active');
+
+    // Add active only for nav menu items
+    const activeLi = e.currentTarget.closest('li');
+    if (activeLi) {
+      activeLi.classList.add('active');
+    }
   };
 
   return (
     <header className="header-list">
       <div className="div-list">
+        <a href="#home" className="nav-brand" onClick={handleNavClick}>
+          <img src="/images/app.svg" alt="Shubham logo" className="nav-brand-logo" />
+          <span>Shubham Portfolio</span>
+        </a>
         <ul className="ul-list">
           <li className="active">
             <i className="fa-regular fa-house"></i>
